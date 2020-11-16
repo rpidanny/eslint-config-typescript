@@ -1,11 +1,18 @@
-# typescript-package-template
+# eslint-config-typescript
 
-![gh-actions](https://github.com/rpidanny/typescript-package-template/workflows/Release/badge.svg) [![codecov](https://codecov.io/gh/rpidanny/typescript-package-template/branch/main/graph/badge.svg?token=UCCA6D6JCB)](https://codecov.io/gh/rpidanny/typescript-package-template)
+Eslint configuration for `TypeScript`
 
-A boilerplate for typescript packages pre-filled with awesome goodies like:
+## Installation
 
-* semantic-release
-* commitlint
-* husky
-* jest
-* Github Actions
+> `npm i --save-dev @rpidanny/eslint-config-typescript`
+
+## Usage
+
+Create `.eslintrc` on your project root with the
+following content:
+
+```json
+{
+  "extends": "@rpidanny"
+}
+```

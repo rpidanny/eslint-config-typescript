@@ -1,33 +1,29 @@
 {
-  "name": "@rpidanny/typescript-package-template",
-  "version": "1.1.1",
-  "description": "Typescript package boilerplate template",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "name": "@rpidanny/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "Typescript Linter Setup",
+  "main": "index.js",
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc -p ./tsconfig.build.json",
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "npm run lint -- --fix",
-    "test": "npm run lint && jest ./test/*",
-    "dev": "ts-node src/index.ts",
     "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rpidanny/typescript-package-template.git"
+    "url": "git+https://github.com/rpidanny/eslint-config-typescript.git"
   },
   "keywords": [
     "typescript",
     "javascript",
-    "template",
-    "boilerplate"
+    "eslint",
+    "eslint-config"
   ],
   "author": "Abhishek <abhishek.rpidanny@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rpidanny/typescript-package-template/issues"
+    "url": "https://github.com/rpidanny/eslint-config-typescript/issues"
   },
-  "homepage": "https://github.com/rpidanny/typescript-package-template#readme",
+  "homepage": "https://github.com/rpidanny/eslint-config-typescript#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -54,18 +50,10 @@
     "eslint-plugin-jest": "^24.0.1",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "jest": "^26.2.2",
     "lint-staged": "^10.5.0",
     "prettier": "^2.0.5",
-    "semantic-release": "^17.2.1",
-    "ts-jest": "^26.1.4",
-    "ts-node": "^9.0.0",
-    "tsc": "^1.20150623.0",
-    "typescript": "^4.0.2"
+    "semantic-release": "^17.2.1"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "publishConfig": {
     "access": "public"
   }
