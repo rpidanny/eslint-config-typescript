@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/rpidanny/eslint-config-typescript/compare/v1.0.0...v1.0.1) (2020-11-16)
+
+
+### Bug Fixes
+
+* **docs:** eslintrc extends ([#2](https://github.com/rpidanny/eslint-config-typescript/issues/2)) ([77c2e80](https://github.com/rpidanny/eslint-config-typescript/commit/77c2e8050726d35eaf1d0fa63798a5e853afff3d))
+
 # 1.0.0 (2020-11-16)
 
 
