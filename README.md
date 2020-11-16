@@ -13,6 +13,6 @@ following content:
 
 ```json
 {
-  "extends": "@rpidanny"
+  "extends": "@rpidanny/eslint-config-typescript"
 }
 ```
