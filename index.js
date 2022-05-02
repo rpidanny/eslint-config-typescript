@@ -16,43 +16,22 @@ module.exports = {
       },
     },
   },
+  plugins: ['@typescript-eslint/eslint-plugin', 'simple-import-sort', 'import'],
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
-    'prettier/@typescript-eslint', // To disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
-    'plugin:prettier/recommended', // To display prettier errors as ESLint errors. Make sure this is always the last configuration.
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'plugin:prettier/recommended',
   ],
   rules: {
-    '@typescript-eslint/no-empty-interface': 'off',
-
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        allowExpressions: true,
-        allowTypedFunctionExpressions: true,
-        allowHigherOrderFunctions: true,
-      },
-    ],
-
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'none',
-        ignoreRestSiblings: false,
-      },
-    ],
-
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
-
-    'require-atomic-updates': 'off',
-
-    '@typescript-eslint/no-explicit-any': [
-      'warn',
-      {
-        ignoreRestArgs: true,
-      },
-    ],
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    'simple-import-sort/imports': 'error',
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
+    camelcase: 'error',
+    'arrow-parens': ['error', 'as-needed'],
   },
 }
