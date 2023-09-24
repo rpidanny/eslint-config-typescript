@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.1.0...v1.2.0) (2023-09-24)
+
+
+### Features
+
+* add import sort for exports ([#309](https://github.com/rpidanny/eslint-config-typescript/issues/309)) ([0e76277](https://github.com/rpidanny/eslint-config-typescript/commit/0e76277fefe7f5418347e499e4b368b29a682eb7))
+
 # [1.1.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.0.1...v1.1.0) (2022-05-02)
 
 
