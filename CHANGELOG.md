@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.2.0...v1.3.0) (2023-11-01)
+
+
+### Features
+
+* update package versions ([#310](https://github.com/rpidanny/eslint-config-typescript/issues/310)) ([5a6bc2b](https://github.com/rpidanny/eslint-config-typescript/commit/5a6bc2ba311068b3511c538ab937e7d188379985))
+
 # [1.2.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.1.0...v1.2.0) (2023-09-24)
 
 
