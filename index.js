@@ -22,6 +22,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:prettier/recommended',
+    'unicorn',
   ],
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
@@ -34,5 +35,6 @@ module.exports = {
     'import/no-duplicates': 'error',
     camelcase: 'error',
     'arrow-parens': ['error', 'as-needed'],
+    'unicorn/numeric-separators-style': ['error', { number: { minimumDigits: 0, groupLength: 3 } }],
   },
 }
