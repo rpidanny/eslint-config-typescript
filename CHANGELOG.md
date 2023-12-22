@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.3.0...v1.4.0) (2023-12-22)
+
+
+### Features
+
+* add unicorn ([#311](https://github.com/rpidanny/eslint-config-typescript/issues/311)) ([d4c454b](https://github.com/rpidanny/eslint-config-typescript/commit/d4c454bfdd4191f732d4a91e53397af2480b67fe))
+
 # [1.3.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.2.0...v1.3.0) (2023-11-01)
 
 
