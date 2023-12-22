@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/rpidanny/eslint-config-typescript/compare/v1.4.0...v1.4.1) (2023-12-22)
+
+
+### Bug Fixes
+
+* unicorn plugin ([2cbbea4](https://github.com/rpidanny/eslint-config-typescript/commit/2cbbea46a4c156b0ef357d4fe6fae0be28d5d7cb))
+
 # [1.4.0](https://github.com/rpidanny/eslint-config-typescript/compare/v1.3.0...v1.4.0) (2023-12-22)
 
 
