@@ -16,13 +16,12 @@ module.exports = {
       },
     },
   },
-  plugins: ['@typescript-eslint/eslint-plugin', 'simple-import-sort', 'import'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'simple-import-sort', 'import', 'unicorn'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:prettier/recommended',
-    'unicorn',
   ],
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
