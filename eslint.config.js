@@ -1,17 +1,18 @@
-const { defineConfig } = require('eslint/config')
+import { fixupPluginRules } from '@eslint/compat'
+import { FlatCompat } from '@eslint/eslintrc'
+import js from '@eslint/js'
+import typescriptEslintEslintPlugin from '@typescript-eslint/eslint-plugin'
+import tsParser from '@typescript-eslint/parser'
+import { defineConfig } from 'eslint/config'
+import _import from 'eslint-plugin-import'
+import simpleImportSort from 'eslint-plugin-simple-import-sort'
+import unicorn from 'eslint-plugin-unicorn'
+import globals from 'globals'
+import { dirname } from 'path'
+import { fileURLToPath } from 'url'
 
-const tsParser = require('@typescript-eslint/parser')
-const globals = require('globals')
-const typescriptEslintEslintPlugin = require('@typescript-eslint/eslint-plugin')
-const simpleImportSort = require('eslint-plugin-simple-import-sort')
-const _import = require('eslint-plugin-import')
-const unicorn = require('eslint-plugin-unicorn')
-
-const { fixupPluginRules } = require('@eslint/compat')
-
-const js = require('@eslint/js')
-
-const { FlatCompat } = require('@eslint/eslintrc')
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
@@ -19,7 +20,7 @@ const compat = new FlatCompat({
   allConfig: js.configs.all,
 })
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     languageOptions: {
       parser: tsParser,

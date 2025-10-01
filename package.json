@@ -2,6 +2,7 @@
   "name": "@rpidanny/eslint-config-typescript",
   "version": "1.4.0",
   "description": "Typescript Linter Setup",
+  "type": "module",
   "main": "eslint.config.js",
   "scripts": {
     "lint": "eslint .",
